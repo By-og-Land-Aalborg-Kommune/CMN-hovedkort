@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $.getJSON('data/testD.geojson', function(data) {
+  $.getJSON('data/KDI13.geojson', function(data) {
     L.geoJson(data, {
       pointToLayer: function(feature, latlng) {
         var iconUrl = 'img/Kyst.png'; // standard ikon
